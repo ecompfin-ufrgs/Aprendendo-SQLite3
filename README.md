@@ -90,9 +90,9 @@ mesmo espaço em branco.
 No terminal do sistema operacional, digite sqlite3 nome_do_banco.db
 
 **Exemplo**: criação do banco de dados eletrotempo.db
-
+```
 sqlite3 eletrotempo.db
-
+```
 
 ### Criando uma tabela
 
