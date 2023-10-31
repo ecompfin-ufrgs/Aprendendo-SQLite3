@@ -24,3 +24,4 @@ Sumário
 
 1. [Arquitetura](arquitetura.md)
 2. [Usando o aplicativo de linha de comando](usando.md)
+3. [Comandos Pragma](pragma.md)
