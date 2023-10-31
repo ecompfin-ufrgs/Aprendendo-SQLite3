@@ -1,4 +1,4 @@
-## A arquitetura do SQLite 3
+# A arquitetura do SQLite 3
 
 O SQLite 3 é um sistema gerenciador de banco de dados consiste em uma biblioteca
 de código escrita em C que aceita cláusulas SQL para serem executadas sobre um
