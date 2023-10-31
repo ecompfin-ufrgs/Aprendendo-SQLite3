@@ -30,7 +30,7 @@ dot-commands.
 Para saber a lista completa de comandos especiais, digite **.help** no shell do
 SQLite 3.  
 
-** Comandos especiais importantes **
+**Comandos especiais importantes**
  - .exit ou .quit - finalizam o shell do SQLite 3.  Isto também pode ser feito pressionando 
 CTRL+ D.
 - .open nome_do_banco.db -> abre um banco de dados quando se está dentro do shell.
