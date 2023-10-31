@@ -15,15 +15,8 @@ O shell lê as cláusulas SQL e os comentários CLI os repassa para a biblioteca
 SQLite 3 executar. Os comandos especiais e  do shell que são executados por ele
 mesmo .
 
-### Comandos do shell SQLite3
 
-#### A estrutura das cláusulas SQL
-
-As cláusulas SQL podem ser escritas sem restrição de forma, isto é, podem conter
-múltiplas linhas, espaços, comentários SQL.  Seu marco de terminação é o sinal
-de ";" ou "/" ou comando "go".
-
-#### Os comandos especiais
+## Os comandos especiais
 
 Os comandos especiais servem para mudar o formato de saída das consultas
 ("queries") e executar queries pré-definidas (pre-packaged).
@@ -35,17 +28,29 @@ SQL.  Além disso, não existe a possibilidade de fazer comentários em
 dot-commands.
 
 Para saber a lista completa de comandos especiais, digite **.help** no shell do
-SQLite 3.  O .exit ou .quit são particularmente importantes, pois
-finalizam o shell do SQLite 3.  Isto também pode ser feito pressionando 
+SQLite 3.  
+
+** Comandos especiais importantes **
+ - .exit ou .quit - finalizam o shell do SQLite 3.  Isto também pode ser feito pressionando 
 CTRL+ D.
+- .open nome_do_banco.db -> abre um banco de dados quando se está dentro do shell.
 
 
 
-#### Comentários CLI
+
+
+
+
+## A estrutura das cláusulas SQL
+
+As cláusulas SQL podem ser escritas sem restrição de forma, isto é, podem conter
+múltiplas linhas, espaços, comentários SQL.  Seu marco de terminação é o sinal
+de ";" ou "/" ou comando "go".
+
+### Comentários CLI
 
 Iniciam-se por sinal # no início da linha sem nenhum caracter antes deles nem 
 mesmo espaço em branco.
-
 
 ### Criação de um banco de dados
 
