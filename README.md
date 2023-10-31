@@ -18,9 +18,9 @@ ZIP como se fossem arquivos de bancos de dados! Por tudo isso, o SQLite 3
 é adotado pelos principais sistemas operacionais para celular (Android e iOS),
 sendo por isso o sistema gerenciador de banco de dados mais usado no mundo.
 
-Vamos aprender as principais funcionalidades do SQLite 3.
+Vamos aprender as principais funcionalidades do SQLite 3 de acordo com a [Documentação Oficial(https://www.sqlite.org/docs.html).
 
-Sumário
+## Sumário
 
 1. [Arquitetura](arquitetura.md)
 2. [Usando o aplicativo de linha de comando](usando.md)
