@@ -1,6 +1,6 @@
+# Usando o cliente SHELL SQLite3
 
-
-## Usando o cliente SHELL SQLite3
+Referência: [link](https://www.sqlite.org/cli.html)
 
 O SQLite shell executa três tipos de comandos, sendo a ordem de preferência
 para o "parseamento" dos comandos colocada a seguir:
