@@ -113,29 +113,6 @@ No terminal do SO, digite
 
 
 
-## Create database
-
-No terminal de comandos do sistema operacional, digite:
-
-`sqlite3 DatabaseName.db`
-
-
-**O comando dump**
-
-Exporta um banco de dados para um arquivo no formato **.sql** que permite reconstruir o banco de dados em caso de corrupção do banco de dados original.  Veja os usos.
-
-1. Salvando o banco de dados
-
-No terminal do SO, digite
-
-`sqlite3 databaseName.db .dump > databaseName.sql`
-
-2. Para reconstruir o banco de dados, digite
-
-`sqlite3 databaseName.db < databaseName.sql`
-
-
-
 ## Attach database
 
 Este comando associa um banco de dados existente ao shell sqlite2 para ser manipulado.  Se o banco de dados não existe, o comando o cria.  Deste modo, este comando sql é análogo ao comando especial .open.
