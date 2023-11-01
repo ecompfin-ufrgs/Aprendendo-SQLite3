@@ -30,7 +30,7 @@ Há coisas importantes não suportadas pelo SQLite.  Confira [aqui](https://www.
 
 ## Instalação
 
-Confira [aqui]()Confira [aqui](https://www.tutorialspoint.com/sqlite/sqlite_installation.htm)
+Confira Confira [aqui](https://www.tutorialspoint.com/sqlite/sqlite_installation.htm)
 
 ## Commands
 
