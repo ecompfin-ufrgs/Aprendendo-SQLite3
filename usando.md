@@ -18,6 +18,9 @@ mesmo .
 
 ## Os comandos especiais
 
+Referência: [link](https://www.sqlite.org/cli.html#special_commands_to_sqlite3_dot_commands_)
+
+
 Os comandos especiais servem para mudar o formato de saída das consultas
 ("queries") e executar queries pré-definidas (pre-packaged).
 
@@ -33,9 +36,24 @@ SQLite 3.
 **Comandos especiais importantes**
  - .exit ou .quit - finalizam o shell do SQLite 3.  Isto também pode ser feito pressionando 
 CTRL+ D.
-- .open nome_do_banco.db -> abre um banco de dados quando se está dentro do shell.
+
+- .open nome_do_banco.db -> abre um banco de dados quando se está dentro do shell.  Também serve para criar um novo banco de dados quando o banco não existe previamente. Ver mais [aqui](https://www.sqlite.org/cli.html#opening_database_files).
 
 
+
+- .save nome_do_banco.db -> salva as cláusula sql realizdas no banco de dados temporário no arquivo nome_do_banco.db
+
+- .mode -> altera o formato de exibição dos comandos na janela do shell do sqlite3. VEr detalhes em [link](https://www.sqlite.org/cli.html#changing_output_formats).
+
+Para ver os esquema dos bancos de dados, tem-se estes comandos cuja referência está [aqui](https://www.sqlite.org/cli.html#querying_the_database_schema).
+
+- .tables -> apresenta a lista de tabelas do banco de dados.
+
+- .indexes -> lista os índices de tabelas.
+
+- .schema -> mostra o esquema (isto é, a estrutura de tabelas) do banco de dados.  Use a opção --indent para facilitar a leitura.
+
+- .databases -> lista todos os bancos de dados abertos na conexão atual à biblioteca SQLite3.
 
 
 
