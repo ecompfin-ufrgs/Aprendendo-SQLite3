@@ -43,51 +43,6 @@ Confira [aqui](https://www.tutorialspoint.com/sqlite/sqlite_installation.htm)
 - REAL
 - TEXT
 - BLOB
-# Tutorial TutorialsPoint
-
-Referência
-
-[link](https://www.tutorialspoint.com/sqlite/)
-
-
-## Introdução
-
-SQLite é uma biblioteca que implementa um banco de dados autocontido em arquivo, sem servidor ou configuração como um motor de banco de dados transacional SQL.
-
-Há coisas importantes não suportadas pelo SQLite.  Confira [aqui](https://www.tutorialspoint.com/sqlite/sqlite_overview.htm)
-
-
-## A SQL
-
-**Data definition language (DDL)**
-
-- create
-- alter
-- drop
-
-**Data manipulation language**
-- insert
-- update
-- delete
-
-**Data query language**
-- select
-
-## Instalação
-
-Confira [aqui](https://www.tutorialspoint.com/sqlite/sqlite_installation.htm)
-
-## Commands
-
-## Syntax
-
-## Data Type
-
-- NULL
-- INTEGER
-- REAL
-- TEXT
-- BLOB
 
 ## Create database
 
@@ -112,7 +67,6 @@ No terminal do SO, digite
 
 
 
-
 ## Attach database
 
 Este comando associa um banco de dados existente ao shell sqlite2 para ser manipulado.  Se o banco de dados não existe, o comando o cria.  Deste modo, este comando sql é análogo ao comando especial .open.
@@ -121,4 +75,8 @@ A sintaxe é a seguinte:
 
 `attach database 'nome_do_banco.db' as 'nome_do_banco'; `
 
+## Detach dabase
 
+Referência: [link](https://www.tutorialspoint.com/sqlite/sqlite_detach_database.htm)
+
+Parei aqui
