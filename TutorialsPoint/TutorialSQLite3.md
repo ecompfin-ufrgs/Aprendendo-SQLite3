@@ -136,3 +136,12 @@ No terminal do SO, digite
 
 
 
+## Attach database
+
+Este comando associa um banco de dados existente ao shell sqlite2 para ser manipulado.  Se o banco de dados não existe, o comando o cria.  Deste modo, este comando sql é análogo ao comando especial .open.
+
+A sintaxe é a seguinte:
+
+`attach database 'nome_do_banco.db' as 'nome_do_banco'; `
+
+
