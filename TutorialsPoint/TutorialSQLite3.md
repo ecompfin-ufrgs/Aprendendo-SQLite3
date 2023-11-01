@@ -86,7 +86,7 @@ Sintaxe:
 `DETACH DATABASE "nome_do_banco";`
 ## Create table
 
-`CREATE TABLE database_name.table_name(
+`CREATE TABLE database_name.table_name(`
 
    `column1 datatype PRIMARY KEY(one or more columns),`
    
