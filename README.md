@@ -25,3 +25,4 @@ Vamos aprender as principais funcionalidades do SQLite 3 de acordo com a [Docume
 1. [Arquitetura](arquitetura.md)
 2. [Usando o aplicativo de linha de comando](usando.md)
 3. [Comandos Pragma](pragma.md)
+4. [A linguagem SQL do SQLite3](linguagemSQLite.md)
