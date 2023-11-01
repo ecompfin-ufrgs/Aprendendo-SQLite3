@@ -83,19 +83,18 @@ Serve para desfazer uma conexão realizada por attach.
 
 Sintaxe:
 
-`DETACH DATABASE "nome_do_banco";
-
+`DETACH DATABASE "nome_do_banco";`
 ## Create table
 
 `CREATE TABLE database_name.table_name(
 
-   column1 datatype PRIMARY KEY(one or more columns),
+   `column1 datatype PRIMARY KEY(one or more columns),`
    
-   column2 datatype,
+   `column2 datatype,`
    
-   column3 datatype,
+   `column3 datatype,`
    
-   .....
+   `.....`
    
-   columnN datatype
-);`
+   `columnN datatype`
+`);`
