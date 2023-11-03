@@ -1,4 +1,4 @@
-# Introdução ao Sistema Gerenciador de Banco de Dados SQLite3
+# Aprendendo o Sistema Gerenciador de Banco de Dados SQLite3
 
 
 ## Introdução
